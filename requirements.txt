@@ -1,0 +1,11 @@
+streamlit>=1.41,<2
+pydeck>=0.9,<1
+xarray>=2024.7
+numpy>=1.26
+pandas>=2.2
+netCDF4>=1.7
+h5netcdf>=1.4
+h5py>=3.10
+pyproj>=3.6
+requests>=2.31
+pyshp>=2.3
