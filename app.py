@@ -72,9 +72,6 @@ st.markdown("**Ice concentration:** "
             "<span style='color:#f57725'>●</span> Historic whitefish spawning sites",
             unsafe_allow_html=True)
 if show_sites and spawning_source:
-    st.caption('Spawning overlay: '+spawning_source+'. These are historical/approximate locations, not current verified habitat.')
-    if find_databasin_data() is None:
-        st.caption('For the exact Data Basin dataset, download its Zip Archive and save it as '
-                   '`data/spawning_grounds.zip` in this project. The app will then use those features instead of the NOAA alternative.')
-st.caption('Ice: NOAA GLERL annual maximum for Lake Michigan (each year shows the daily grid on that maximum date). '
-           'Grid display is downsampled for speed. After a year is loaded once, its processed map is saved locally for faster reuse.')
+    st.caption('Spawning overlay: Conservation Biology Institute - historic lake whitefish spawning locations.')
+
+st.caption('Ice: NOAA GLERL - annual maximum for Lake Michigan.')
